@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سٹاک مارکیٹ جائزہ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <i class="fas fa-chart-line"></i>
+            <h1>مارکیٹ ویژن</h1>
+        </div>
+        <nav>
+            <a href="#">جائزہ</a>
+            <a href="#">پورٹ فولیو</a>
+            <a href="#">خبریں</a>
+            <a href="#">رپورٹس</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="سٹاک یا کمپنی تلاش کریں...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="market-summary">
+            <h2>مارکیٹ انڈیکس کا خلاصہ</h2>
+            <div class="index-cards">
+                <div class="card index-card gain">
+                    <h3>KSE 100 انڈیکس</h3>
+                    <p class="value">47,850.25</p>
+                    <p class="change"><i class="fas fa-caret-up"></i> +450.90 (+0.95%)</p>
+                </div>
+                <div class="card index-card loss">
+                    <h3>بینکنگ سیکٹر</h3>
+                    <p class="value">5,120.40</p>
+                    <p class="change"><i class="fas fa-caret-down"></i> -65.10 (-1.25%)</p>
+                </div>
+                <div class="card index-card neutral">
+                    <h3>آئل اینڈ گیس</h3>
+                    <p class="value">10,500.00</p>
+                    <p class="change">0.00 (0.00%)</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="top-stocks">
+            <h2>آج کے نمایاں سٹاکس</h2>
+            <div class="stock-list">
+                <div class="stock-item gain">
+                    <span class="symbol">HBL</span>
+                    <span class="name">حبیب بینک</span>
+                    <span class="price">₹ 125.75</span>
+                    <span class="percent">+4.20%</span>
+                </div>
+                <div class="stock-item loss">
+                    <span class="symbol">OGDC</span>
+                    <span class="name">آئل اینڈ گیس ڈیویلپمنٹ</span>
+                    <span class="price">₹ 78.50</span>
+                    <span class="percent">-2.55%</span>
+                </div>
+                <div class="stock-item volume">
+                    <span class="symbol">PTC</span>
+                    <span class="name">پی ٹی سی ایل</span>
+                    <span class="price">₹ 15.00</span>
+                    <span class="percent">35M حجم</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-feed">
+            <h2>اہم مالیاتی خبریں</h2>
+            <div class="news-item">
+                <p class="headline">بینک آف پاکستان نے شرح سود کو 22% پر برقرار رکھنے کا فیصلہ کیا</p>
+                <span class="time">15 منٹ پہلے</span>
+            </div>
+            <div class="news-item">
+                <p class="headline">ٹیک سیکٹر میں 5% کی تیزی؛ منافع میں اضافے کی توقع</p>
+                <span class="time">1 گھنٹہ پہلے</span>
+            </div>
+            <div class="news-item">
+                <p class="headline">سیمنٹ کی قیمتوں میں استحکام کے باعث سیمنٹ انڈیکس میں معمولی کمی</p>
+                <span class="time">2 گھنٹے پہلے</span>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
